@@ -1,0 +1,20 @@
+.cities {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px 0;
+  flex-wrap: wrap;
+
+  &__name {
+    border: none;
+    color: #2f4171;
+    font-size: 24px;
+    background: none;
+    cursor: pointer;
+    transition: ease-out;
+  }
+
+  &__name:hover {
+    transform: scale(1.05);
+  }
+}

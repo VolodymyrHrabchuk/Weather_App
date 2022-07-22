@@ -1,0 +1,19 @@
+.container {
+  max-width: 1000px;
+  margin: 0px auto;
+  transition: 0.4 ease-out;
+}
+
+.wrapper {
+  background: linear-gradient(120deg, #f5e0b6 0%, #cad2e1 83%, #b6cbf5 100%);
+}
+
+.inner-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.sun {
+  display: flex;
+  align-items: center;
+}

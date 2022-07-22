@@ -1,0 +1,162 @@
+@media screen and (max-width: 980px) {
+  .slide-visible {
+    width: 50px;
+  }
+
+  .forecast {
+    &__items {
+      display: flex;
+      justify-content: space-evenly;
+      width: 600px;
+      margin: 0 auto;
+    }
+
+    &__hour-item {
+      text-align: center;
+    }
+  }
+
+  .slider-left,
+  .slider-right {
+    margin: 0 -20px;
+  }
+
+  .line {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .forecast {
+    &__items {
+      display: flex;
+      justify-content: space-evenly;
+      width: 350px;
+      margin: 0 auto;
+    }
+
+    &__hour-item {
+      text-align: center;
+    }
+
+    &__item {
+      align-items: unset;
+
+      &-deg {
+        text-align: center;
+      }
+
+      &-time {
+        text-align: center;
+      }
+    }
+  }
+
+  .slider-left {
+    margin: 0 -50px;
+  }
+  .slider-frame {
+    margin: 0 -12px;
+  }
+
+  .location {
+    &__item-bold {
+      font-size: 92px;
+      text-align: center;
+    }
+  }
+
+  .temp-details {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .search {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    &__input-degrees {
+      margin: unset;
+    }
+  }
+
+  .date__item {
+    text-align: center;
+  }
+
+  .main-container {
+    height: 250vh;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .main-container {
+    height: 170vh;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .main-container {
+    height: 125vh;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .main-container {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 375px) {
+  .forecast__items {
+    width: 250px;
+  }
+  .forecast__item-time {
+    font-size: 14px;
+  }
+
+  .slider-icon {
+    width: unset;
+    height: unset;
+  }
+  .slider-left,
+  .slider-right {
+    display: none;
+  }
+  .slider-container {
+    width: 100%;
+    display: contents;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .slider-left,
+  .slider-right {
+    display: none;
+  }
+  .slider-container {
+    width: 100%;
+    display: contents;
+  }
+
+  .location {
+    &__item-bold {
+      font-size: 64px;
+      text-align: center;
+    }
+  }
+
+  .search {
+    padding: 5px;
+  }
+  .icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .forecast__item {
+    align-items: center;
+  }
+}
